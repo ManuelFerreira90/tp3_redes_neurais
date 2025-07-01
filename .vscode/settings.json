@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./gym/data/download_d4rl_"
+    ]
+}

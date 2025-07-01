@@ -1,0 +1,23 @@
+name: decision-transformer-atari
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - cudatoolkit=10.2
+  - tensorflow-gpu=2.4
+  - ale-py
+  - gym
+  - gin-config
+  - numpy
+  - psutil
+  - opencv
+  - tqdm
+  - blosc
+  - pyprind
+  - absl-py
+  - pip
+  - pip:
+      - dopamine-rl==1.0.5  # ou versão mais recente compatível
